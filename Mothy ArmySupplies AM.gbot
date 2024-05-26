@@ -1,0 +1,2286 @@
+{
+  "$type": "Grimoire.Botting.Configuration, Grimoire",
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "-= Mothy ArmySupplies =-",
+        "Alpha": 255,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇",
+        "Alpha": 255,
+        "G": 102,
+        "B": 204
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "Variables",
+        "Alpha": 255,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇",
+        "Alpha": 255,
+        "G": 102,
+        "B": 204
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "Configure Quests",
+        "Alpha": 255,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "Info tab for further instructions",
+        "Alpha": 160,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Bloody Chaos",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "quantityBloodGems",
+        "Value2": "100"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "Farms Blood Gems upon reaching 1000 Hydra Scale Pieces",
+        "Alpha": 160,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "Quantity: Farm to [no.] Blood Gems (max 100)",
+        "Alpha": 160,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Swindle Return Policy",
+        "Value2": "Yes"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "Completes Swindle's Return Policy for Gems / DCS",
+        "Alpha": 160,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Trade Essence",
+        "Value2": "Yes"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "At 100 Essences, trades 60 for 2 Totems or 10 Gems",
+        "Alpha": 160,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Ripoff Emporium",
+        "Value2": "Yes"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "BuyReceipts",
+        "Value2": "Yes"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "quantityRipoffGold",
+        "Value2": "100000000"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "Ripoff Emporium: Trades Swindle Receipts and Uni10 for Totem / Gems",
+        "Alpha": 160,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "BuyReceipts: Buys Swindle Receipts with gold",
+        "Alpha": 160,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "Set gold required for BuyReceipts",
+        "Alpha": 160,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Sell Voucher",
+        "Value2": "Yes"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "Leaves combat briefly to sell Voucher of Nulgath (mem)",
+        "Alpha": 160,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "A Tainted Deal",
+        "Value2": "Yes"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "quantityTaintedGems",
+        "Value2": "998"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "At [quantity] Tainted Gems, trades 50 for 5 Dark Crystal Shards",
+        "Alpha": 160,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "Others",
+        "Alpha": 255,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "R_Number",
+        "Value2": "INSERT ROOM NUMBER (4-5 digits)"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Loop_Amount",
+        "Value2": "25"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "Attack loops before bot checks quest progress",
+        "Alpha": 160,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "ProvokeHydra",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "Turns aggro on for hydras",
+        "Alpha": 160,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "Recommendation: No",
+        "Alpha": 160,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "AutoEquip",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Var is equal to Var",
+        "Value1": "[AutoEquip]",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "START"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "ArchMage",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "ArchMage",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "INSERT ARMOR NAME",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "INSERT ARMOR NAME",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "INSERT WEAPON NAME",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "INSERT WEAPON NAME",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "INSERT HELM NAME",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "INSERT HELM NAME",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "INSERT CAPE NAME",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "INSERT CAPE NAME",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇",
+        "Alpha": 255,
+        "G": 102,
+        "B": 204
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "Bot",
+        "Alpha": 255,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇",
+        "Alpha": 255,
+        "G": 102,
+        "B": 204
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "START"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "stalagbite",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 3,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire",
+        "Set": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "BLOODY CHAOS"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "VAR"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "ROOM",
+        "Value2": "Null"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "CELL",
+        "Value2": "Null"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "SIDE",
+        "Value2": "Null"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Label",
+        "Value2": "SUPPLIES"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Item",
+        "Value2": "Null"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "UNBANK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "ROOM JOINER"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 700
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "[ROOM]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "[ROOM]-[R_Number]",
+        "Cell": "Wait",
+        "Pad": "Spawn",
+        "Try": 1,
+        "MapSwf": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "[ROOM]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 600
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "[CELL]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "[CELL]",
+        "Pad": "[SIDE]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "[CELL]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "hydrachallenge",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire",
+        "Set": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "[Label]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "UNBANK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Unidentified 1",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Unidentified 1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Unidentified 6",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Unidentified 6"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Unidentified 9",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Unidentified 9"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Unidentified 10",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Unidentified 10"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Unidentified 16",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Unidentified 16"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Unidentified 19",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Unidentified 19"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Unidentified 20",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Unidentified 20"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Shattered Legendary Sword of Dragon Control",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Shattered Legendary Sword of Dragon Control"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Escherion's Helm",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Escherion's Helm"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Tainted Gem",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Tainted Gem"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Totem of Nulgath",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Totem of Nulgath"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Dark Crystal Shard",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Dark Crystal Shard"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Diamond of Nulgath",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Diamond of Nulgath"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Gem of Nulgath",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Gem of Nulgath"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Blood Gem of the Archfiend",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Blood Gem of the Archfiend"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Receipt of Swindle",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Receipt of Swindle"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Voucher of Nulgath",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Voucher of Nulgath"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Voucher of Nulgath (non-mem)",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Voucher of Nulgath (non-mem)"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Essence of Nulgath",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Essence of Nulgath"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Relic of Chaos",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Relic of Chaos"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Hydra Scale Piece",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Hydra Scale Piece"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "hydrachallenge",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "SKIP CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "BLOODY CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Var is equal to Var",
+        "Value1": "[Bloody Chaos]",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "POLICY CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Blood Gem of the Archfiend",
+        "Value2": "[quantityBloodGems]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 3,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Hydra Scale Piece",
+        "Value2": "1000"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "BLOODY CHAOS"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "POLICY CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Var is equal to Var",
+        "Value1": "[Swindle Return Policy]",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ESSENCE CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "7551",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "RETURN POLICY COMPLETE"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is in progress",
+        "Value1": "7551",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 4,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 7551,
+          "IsInProgress": true
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInTemp, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in temp inventory",
+        "Value1": "Dark Makai Rune",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "RETURN POLICY"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "ESSENCE CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Var is equal to Var",
+        "Value1": "[Trade Essence]",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "RIPOFF CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Essence of Nulgath",
+        "Value2": "100"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ESSENCE"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "RIPOFF CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Var is equal to Var",
+        "Value1": "[Ripoff Emporium]",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "VOUCHER CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Totem of Nulgath",
+        "Value2": "100"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 3,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Gem of Nulgath",
+        "Value2": "1000"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "VOUCHER CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Unidentified 10",
+        "Value2": "50"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "VOUCHER CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Receipt of Swindle",
+        "Value2": "3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "RIPOFF"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Var is equal to Var",
+        "Value1": "[BuyReceipts]",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "VOUCHER CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdGoldLessThan, Grimoire",
+        "Tag": "This player",
+        "Text": "Gold is less than",
+        "Value1": "2700000",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 4,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdGoldLessThan, Grimoire",
+        "Tag": "This player",
+        "Text": "Gold is less than",
+        "Value1": "[quantityRipoffGold]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "RIPOFF"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "VOUCHER CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Var is equal to Var",
+        "Value1": "[Sell Voucher]",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "TAINTED CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdGoldGreaterThan, Grimoire",
+        "Tag": "This player",
+        "Text": "Gold is greater than",
+        "Value1": "99999999",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "TAINTED CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Voucher of Nulgath",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 5,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdSell, Grimoire",
+        "ItemName": "Voucher of Nulgath"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "TAINTED CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Var is equal to Var",
+        "Value1": "[A Tainted Deal]",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "SUPPLIES"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Dark Crystal Shard",
+        "Value2": "1000"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 8,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Tainted Gem",
+        "Value2": "50"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 6,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Tainted Gem",
+        "Value2": "[quantityTaintedGems]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 4,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Unidentified 13",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "TAINTED"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "SUPPLIES"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "SKIP CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "[Label]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "ATTACK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "Loop"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerAuraGreaterThan, Grimoire",
+        "Tag": "Aura",
+        "Text": "Player aura value greater than",
+        "Value1": "Corporeal Ascension",
+        "Value2": "0"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 5,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Wait": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "4",
+        "Wait": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "3",
+        "Wait": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "1",
+        "Wait": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdManaGreaterThan, Grimoire",
+        "Tag": "This player",
+        "Text": "Mana is greater than",
+        "Value1": "29",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "3",
+        "Wait": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdManaGreaterThan, Grimoire",
+        "Tag": "This player",
+        "Text": "Mana is greater than",
+        "Value1": "9",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "1",
+        "Wait": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdManaLessThan, Grimoire",
+        "Tag": "This player",
+        "Text": "Mana is less than",
+        "Value1": "40",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Wait": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "type": 1,
+        "Int": "Loop",
+        "Value": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntLessThan, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int Lesser Than",
+        "Value1": "Loop",
+        "Value2": "[Loop_Amount]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 8,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "[Label]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "SUPPLIES"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Var is equal to Var",
+        "Value1": "[ProvokeHydra]",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Label",
+        "Value2": "CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "ROOM",
+        "Value2": "hydrachallenge"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "CELL",
+        "Value2": "h90"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "SIDE",
+        "Value2": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "[CELL]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ROOM JOINER"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "BLOODY CHAOS"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAddQuestList, Grimoire",
+        "Id": 7816,
+        "SafeRelogin": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Escherion's Helm",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "DRAGON SWORD"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "ESCHERION"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Label",
+        "Value2": "ESCHERION"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "ROOM",
+        "Value2": "escherion"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "CELL",
+        "Value2": "Boss"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "SIDE",
+        "Value2": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "[CELL]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ROOM JOINER"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Escherion's Helm",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "DRAGON SWORD"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
+        "Tag": "Monster",
+        "Text": "Is in room",
+        "Value1": "Staff of Inversion",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 150
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdAttack, Grimoire",
+        "Monster": "Staff of Inversion"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "DRAGON SWORD"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Label",
+        "Value2": "DRAGON SWORD"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "ROOM",
+        "Value2": "stalagbite"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "CELL",
+        "Value2": "r2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "SIDE",
+        "Value2": "Center"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "[CELL]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ROOM JOINER"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Blood Gem of the Archfiend",
+        "Value2": "[quantityBloodGems]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "BLOODY CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Escherion's Helm",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ESCHERION"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can not be turned in",
+        "Value1": "7816",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 4,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 7816
+        },
+        "CompleteTry": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Hydra Scale Piece",
+        "Value2": "200"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 3,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "BLOODY CHAOS"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdRemoveQuestList, Grimoire",
+        "Id": 7816,
+        "ItemId": "",
+        "SafeRelogin": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "BLOODY CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "RETURN POLICY"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Label",
+        "Value2": "RETURN POLICY"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "ROOM",
+        "Value2": "evilmarsh"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "CELL",
+        "Value2": "Field1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "SIDE",
+        "Value2": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "[CELL]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ROOM JOINER"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInTemp, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in temp inventory",
+        "Value1": "Dark Makai Rune",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "SUPPLIES"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "RETURN POLICY COMPLETE"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Gem of Nulgath",
+        "Value2": "1000"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 4,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 7551,
+          "ItemId": "6136",
+          "IsInProgress": true
+        },
+        "CompleteTry": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 3,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 7551,
+          "ItemId": "4770",
+          "IsInProgress": true
+        },
+        "CompleteTry": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 150
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "SUPPLIES"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "ESSENCE"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "4778",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 4778,
+          "CanComplete": true
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Totem of Nulgath",
+        "Value2": "100"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 4,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 4778,
+          "ItemId": "5357",
+          "CanComplete": true
+        },
+        "CompleteTry": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 3,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 4778,
+          "ItemId": "6136",
+          "CanComplete": true
+        },
+        "CompleteTry": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 150
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "SUPPLIES"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "RIPOFF"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Label",
+        "Value2": "RIPOFF"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "ROOM",
+        "Value2": "tercessuinotlim"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "CELL",
+        "Value2": "Swindle"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "SIDE",
+        "Value2": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "[CELL]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ROOM JOINER"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Receipt of Swindle",
+        "Value2": "9"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "SLOW RIPOFF"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Unidentified 10",
+        "Value2": "150"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "SLOW RIPOFF"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Totem of Nulgath",
+        "Value2": "98"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 3,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuy, Grimoire",
+        "ShopId": 1951,
+        "ItemName": "Totem of Nulgath",
+        "Qty": 3
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 4,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Gem of Nulgath",
+        "Value2": "980"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "SLOW RIPOFF"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuy, Grimoire",
+        "ShopId": 1951,
+        "ItemName": "Gem of Nulgath",
+        "Qty": 30
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 150
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "RIPOFF CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "SLOW RIPOFF"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Receipt of Swindle",
+        "Value2": "3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuy, Grimoire",
+        "ShopId": 1951,
+        "ItemName": "Receipt of Swindle",
+        "Qty": 3
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Totem of Nulgath",
+        "Value2": "100"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 3,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuy, Grimoire",
+        "ShopId": 1951,
+        "ItemName": "Totem of Nulgath",
+        "Qty": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuy, Grimoire",
+        "ShopId": 1951,
+        "ItemName": "Gem of Nulgath",
+        "Qty": 10
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 150
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "RIPOFF CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "TAINTED"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "4855",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 4855
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 4855
+        },
+        "CompleteTry": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 150
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "SUPPLIES"
+      }
+    ]
+  },
+  "Skills": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Skill, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Quests": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Game.Data.Quest, Grimoire",
+        "QuestID": 2857,
+        "SafeRelogin": true,
+        "Text": "2857",
+        "IsInProgress": true
+      }
+    ]
+  },
+  "Author": "",
+  "Description": "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",
+  "Boosts": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Drops": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": [
+      "Unidentified 1",
+      "Unidentified 6",
+      "Unidentified 9",
+      "Unidentified 10",
+      "Unidentified 16",
+      "Unidentified 19",
+      "Unidentified 20",
+      "Tainted Gem",
+      "Dark Crystal Shard",
+      "Diamond of Nulgath",
+      "Gem of Nulgath",
+      "Blood Gem of the Archfiend",
+      "Receipt of Swindle",
+      "Voucher of Nulgath",
+      "Voucher of Nulgath (non-mem)",
+      "Essence of Nulgath",
+      "Relic of Chaos",
+      "Hydra Scale Piece",
+      "Escherion's Helm",
+      "Shattered Legendary Sword of Dragon Control"
+    ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 5588,
+    "sIP": "socket5.aq.com"
+  },
+  "ExitCombatBeforeRest": true,
+  "EnablePickup": true,
+  "EnableRejection": true,
+  "AutoRelogin": true,
+  "RelogDelay": 5000,
+  "BotDelay": 1000,
+  "SkipDelayIndexIf": true,
+  "InfiniteAttackRange": true,
+  "LagKiller": true,
+  "WalkSpeed": 8,
+  "NotifyUponDrop": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "RestMp": 60,
+  "RestHp": 60,
+  "RestartUponDeath": true,
+  "RestartOnAFK": true,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "FollowName": "Player name"
+}
